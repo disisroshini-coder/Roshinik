@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roshini | Aspiring Software Developer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 0;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    .skills, .projects, .achievements {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4CAF50;
+      color: white;
+      margin-top: 40px;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Roshini</h1>
+  <p>Aspiring Software Developer</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Hello! I am Roshini, an aspiring software developer currently pursuing a B.Sc. in Computer Science at Annamalai University (Graduated 2025). I am passionate about building user-friendly software solutions and web experiences, with a focus on learning and growing my skills in programming and development.</p>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><strong>B.Sc. Computer Science</strong>, Annamalai University (2025)</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card">C</div>
+    <div class="card">C++</div>
+    <div class="card">Python</div>
+    <div class="card">MySQL (Basic)</div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Web Pages Development</h3>
+      <p>Created responsive and modern web pages using HTML, CSS, and basic JavaScript to improve user engagement and accessibility.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Achievements</h2>
+  <div class="achievements">
+    <div class="card">Completed UCMAS Abacus and Hindi 3 Levels Exam</div>
+    <div class="card">Certified in General Proficiency</div>
+    <div class="card">Completed Typewriting (Lower & Higher)</div>
+    <div class="card">Active participation in coding competitions and hackathons</div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:disisroshini@gmail.com">disisroshini@gmail.com</a></p>
+  <p>Phone: <a href="tel:9042320895">9042320895</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Roshini | Designed with ❤️</p>
+</footer>
+
+</body>
+</html>
